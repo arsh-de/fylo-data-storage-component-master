@@ -163,6 +163,13 @@ main {
 }
 
 @media (min-width:1024px) {
+    body {
+        background: url(images/bg-desktop.png) no-repeat;
+        background-color: var(--Very-Dark-Blue);
+        background-position: bottom;
+        background-size: 100vw 50vh;
+    }
+
     main {
         width: 100%;
         max-width: 1200px;
